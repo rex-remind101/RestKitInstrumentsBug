@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import "ObjectManager.h"
 #import "Settings.h"
 
 @interface AppDelegate ()
@@ -21,7 +20,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [[ObjectManager sharedManager] start];
     [Settings settings];
     
     return YES;

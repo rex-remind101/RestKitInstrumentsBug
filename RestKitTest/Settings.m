@@ -8,7 +8,7 @@
 
 #import "Settings.h"
 
-#import "ObjectManager.h"
+#import <RestKit/RestKit.h>
 
 @interface Settings ()
 
@@ -22,6 +22,8 @@ static NSString *const DefaultSettings = @"production_settings";
 
 + (instancetype)settings
 {
+    RKLogConfigureByName("*", RKLogLevelTrace);
+    
     static Settings *instance = nil;
     
     static dispatch_once_t onceToken;

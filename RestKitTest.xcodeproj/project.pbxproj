@@ -15,7 +15,6 @@
 		CD050A5519E70ECB00F3BCCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD050A5419E70ECB00F3BCCB /* Images.xcassets */; };
 		CD050A5819E70ECB00F3BCCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD050A5619E70ECB00F3BCCB /* LaunchScreen.xib */; };
 		CD050A6419E70ECB00F3BCCB /* RestKitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD050A6319E70ECB00F3BCCB /* RestKitTestTests.m */; };
-		CD050A6F19E714C600F3BCCB /* ObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD050A6E19E714C600F3BCCB /* ObjectManager.m */; };
 		CD050A7119E7166A00F3BCCB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD050A7019E7166A00F3BCCB /* SystemConfiguration.framework */; };
 		CD050A7519E7177C00F3BCCB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD050A7419E7177C00F3BCCB /* CoreData.framework */; };
 		CD050A7819E7190200F3BCCB /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CD050A7719E7190200F3BCCB /* Settings.m */; };
@@ -47,8 +46,6 @@
 		CD050A5D19E70ECB00F3BCCB /* RestKitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestKitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD050A6219E70ECB00F3BCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD050A6319E70ECB00F3BCCB /* RestKitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestKitTestTests.m; sourceTree = "<group>"; };
-		CD050A6D19E714C600F3BCCB /* ObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectManager.h; sourceTree = "<group>"; };
-		CD050A6E19E714C600F3BCCB /* ObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectManager.m; sourceTree = "<group>"; };
 		CD050A7019E7166A00F3BCCB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CD050A7419E7177C00F3BCCB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CD050A7619E7190200F3BCCB /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
@@ -115,8 +112,6 @@
 				CD050A4C19E70ECA00F3BCCB /* AppDelegate.m */,
 				CD050A4E19E70ECA00F3BCCB /* ViewController.h */,
 				CD050A4F19E70ECB00F3BCCB /* ViewController.m */,
-				CD050A6D19E714C600F3BCCB /* ObjectManager.h */,
-				CD050A6E19E714C600F3BCCB /* ObjectManager.m */,
 				CD050A7619E7190200F3BCCB /* Settings.h */,
 				CD050A7719E7190200F3BCCB /* Settings.m */,
 				CD050A5119E70ECB00F3BCCB /* Main.storyboard */,
@@ -290,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD050A6F19E714C600F3BCCB /* ObjectManager.m in Sources */,
 				CD050A5019E70ECB00F3BCCB /* ViewController.m in Sources */,
 				CD050A4D19E70ECA00F3BCCB /* AppDelegate.m in Sources */,
 				CD050A4A19E70ECA00F3BCCB /* main.m in Sources */,
